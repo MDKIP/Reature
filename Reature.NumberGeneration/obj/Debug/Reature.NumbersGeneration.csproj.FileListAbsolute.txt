@@ -1,0 +1,6 @@
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NumberGeneration\bin\Debug\Reature.NumberGeneration.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NumberGeneration\bin\Debug\Reature.NumberGeneration.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NumberGeneration\obj\Debug\Reature.NumbersGeneration.csproj.CoreCompileInputs.cache
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NumberGeneration\obj\Debug\Reature.NumberGeneration.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NumberGeneration\obj\Debug\Reature.NumberGeneration.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NumberGeneration\obj\Debug\Reature.NumbersGeneration.csprojAssemblyReference.cache

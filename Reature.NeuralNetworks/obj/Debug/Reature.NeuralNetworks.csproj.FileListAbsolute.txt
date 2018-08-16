@@ -1,0 +1,11 @@
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.NeuralNetworks.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.NeuralNetworks.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.NumberGeneration.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.Perceptrons.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.NumberGeneration.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.Perceptrons.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.csprojAssemblyReference.cache
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.csproj.CoreCompileInputs.cache
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.csproj.CopyComplete
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.pdb

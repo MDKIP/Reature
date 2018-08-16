@@ -1,0 +1,9 @@
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\bin\Debug\Reature.GeneticAlgorithm.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\bin\Debug\Reature.GeneticAlgorithm.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\obj\Debug\Reature.GeneticAlgorithm.csprojAssemblyReference.cache
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\obj\Debug\Reature.GeneticAlgorithm.csproj.CoreCompileInputs.cache
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\obj\Debug\Reature.GeneticAlgorithm.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\obj\Debug\Reature.GeneticAlgorithm.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\bin\Debug\Reature.NumberGeneration.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\bin\Debug\Reature.NumberGeneration.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.GeneticAlgorithm\obj\Debug\Reature.GeneticAlgorithm.csproj.CopyComplete

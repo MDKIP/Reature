@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reature.GeneticAlgorithm", "Reature.GeneticAlgorithm\Reature.GeneticAlgorithm.csproj", "{EC8432F7-DA3B-4DF3-9E56-8FC0ACC1F5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{04C26974-DB1B-4D76-883F-962BDCC1AC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reature.NumbersGeneration", "Reature.NumberGeneration\Reature.NumbersGeneration.csproj", "{E5DD91F8-F8DE-4765-89CA-E73007674E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reature.Perceptrons", "Reature.Perceptrons\Reature.Perceptrons.csproj", "{052743A4-E7C3-4057-8A6A-05B1F98DAC3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reature.NeuralNetworks", "Reature.NeuralNetworks\Reature.NeuralNetworks.csproj", "{5DDF2CD9-59EF-480C-8D7E-2091C4E3E5C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reature.Mathematics", "Reature.Mathematics\Reature.Mathematics.csproj", "{D01CFE8E-5507-4AF2-84F3-A03ECA2BCA74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC8432F7-DA3B-4DF3-9E56-8FC0ACC1F5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8432F7-DA3B-4DF3-9E56-8FC0ACC1F5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8432F7-DA3B-4DF3-9E56-8FC0ACC1F5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8432F7-DA3B-4DF3-9E56-8FC0ACC1F5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C26974-DB1B-4D76-883F-962BDCC1AC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C26974-DB1B-4D76-883F-962BDCC1AC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C26974-DB1B-4D76-883F-962BDCC1AC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C26974-DB1B-4D76-883F-962BDCC1AC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DD91F8-F8DE-4765-89CA-E73007674E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DD91F8-F8DE-4765-89CA-E73007674E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DD91F8-F8DE-4765-89CA-E73007674E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DD91F8-F8DE-4765-89CA-E73007674E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052743A4-E7C3-4057-8A6A-05B1F98DAC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052743A4-E7C3-4057-8A6A-05B1F98DAC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052743A4-E7C3-4057-8A6A-05B1F98DAC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052743A4-E7C3-4057-8A6A-05B1F98DAC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDF2CD9-59EF-480C-8D7E-2091C4E3E5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDF2CD9-59EF-480C-8D7E-2091C4E3E5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF2CD9-59EF-480C-8D7E-2091C4E3E5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDF2CD9-59EF-480C-8D7E-2091C4E3E5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01CFE8E-5507-4AF2-84F3-A03ECA2BCA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01CFE8E-5507-4AF2-84F3-A03ECA2BCA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01CFE8E-5507-4AF2-84F3-A03ECA2BCA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01CFE8E-5507-4AF2-84F3-A03ECA2BCA74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F536F185-DA3C-48C8-9507-88AA91E0FB8A}
+	EndGlobalSection
+EndGlobal
