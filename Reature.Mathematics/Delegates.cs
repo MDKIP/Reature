@@ -8,4 +8,5 @@ namespace Reature.Mathematics
 {
     public delegate float FloatOperationHandler(float f);
     public delegate float MatrixOperationHandler(float f, int x, int y);
+    public delegate T ArrayOperationHandler<T>(T d, int index);
 }

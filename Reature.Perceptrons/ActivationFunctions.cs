@@ -61,5 +61,46 @@ namespace Reature.Perceptrons
                 return 0;
             }
         }
+
+        /// <summary>
+        /// Zawiera pochodne dla funkcji aktywacyjnych.
+        /// </summary>
+        static public class Derivatives
+        {
+            /// <summary>
+            /// Pochodna dla identity.
+            /// </summary>
+            /// <param name="x">Input.</param>
+            /// <returns>Zwraca wartość będącą pochodną.</returns>
+            static public float Identity(float x)
+            {
+                return 1;
+            }
+            /// <summary>
+            /// Pochodna dla sigmoidu.
+            /// </summary>
+            /// <param name="x">Input.</param>
+            /// <returns>Zwraca wartość będącą pochodną.</returns>
+            static public float Sigmoid(float x)
+            {
+                return x * (1 - x);
+            }
+            /// <summary>
+            /// Pochodna dla ReLu.
+            /// </summary>
+            /// <param name="x">Input.</param>
+            /// <returns>Zwraca wartość będącą pochodną.</returns>
+            static public float RectifiedLinearUnit(float x)
+            {
+                if (x > 0)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+        }
     }
 }

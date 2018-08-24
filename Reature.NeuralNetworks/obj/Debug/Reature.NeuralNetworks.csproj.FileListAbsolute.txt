@@ -9,3 +9,5 @@ F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reat
 F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.csproj.CopyComplete
 F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.dll
 F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\obj\Debug\Reature.NeuralNetworks.pdb
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.Mathematics.dll
+F:\Projekty\Projekty Visual Studio\Reature\Reature.NeuralNetworks\bin\Debug\Reature.Mathematics.pdb

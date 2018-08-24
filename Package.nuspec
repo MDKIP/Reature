@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Reature</id>
+    <version>1.0.0</version>
+    <authors>Marek Dzięcioł</authors>
+    <owners>Marek Dzięcioł</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Biblioteka ułatwiająca tworzenie AI.</description>
+    <releaseNotes>Wersja testowa.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>AI Library</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Reature.GeneticAlgorithm\bin\Debug\Reature.GeneticAlgorithm.dll" target="lib\Reature\Reature.GeneticAlgorithm.dll"></file>
+    <file src="Reature.Mathematics\bin\Debug\Reature.Mathematics.dll" target="lib\Reature\Reature.Mathematics.dll"></file>
+    <file src="Reature.NeuralNetworks\bin\Debug\Reature.NeuralNetworks.dll" target="lib\Reature\Reature.NeuralNetworks.dll"></file>
+    <file src="Reature.NumberGeneration\bin\Debug\Reature.NumberGeneration.dll" target="lib\Reature\Reature.NumberGeneration.dll"></file>
+    <file src="Reature.NumbersGeneration.PerlinNoise\bin\Debug\Reature.NumbersGeneration.PerlinNoise.dll" target="lib\Reature\Reature.NumbersGeneration.PerlinNoise.dll"></file>
+    <file src="Reature.Perceptrons\bin\Debug\Reature.Perceptrons.dll" target="lib\Reature\Reature.Perceptrons.dll"></file>
+  </files>
+</package>

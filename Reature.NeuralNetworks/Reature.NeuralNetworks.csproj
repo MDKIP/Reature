@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NeuralLayer.cs" />
-    <Compile Include="NeuralNetwork.cs" />
-    <Compile Include="Neuron.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleNeuralNetwork.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Reature.Mathematics\Reature.Mathematics.csproj">
+      <Project>{d01cfe8e-5507-4af2-84f3-a03eca2bca74}</Project>
+      <Name>Reature.Mathematics</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Reature.NumberGeneration\Reature.NumbersGeneration.csproj">
       <Project>{e5dd91f8-f8de-4765-89ca-e73007674e0f}</Project>
       <Name>Reature.NumbersGeneration</Name>

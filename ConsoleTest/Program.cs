@@ -21,7 +21,7 @@ namespace ConsoleTest
             WriteLine("Reature Framework");
             WriteLine();
 
-            TestMatrixs();
+            TestNeuralNetworks();
 
             ReadKey();
         }
@@ -77,22 +77,73 @@ namespace ConsoleTest
         }
         static void TestNeuralNetworks()
         {
-            Neuron brain = new Neuron(2, ActivationFunctions.BinaryStep)
+            SimpleNeuralNetwork brain = new SimpleNeuralNetwork(2, 25, 1,
+                    ActivationFunctions.Sigmoid, ActivationFunctions.Sigmoid,
+                    ActivationFunctions.Derivatives.Sigmoid, ActivationFunctions.Derivatives.Sigmoid)
             {
-                LearningRate = 0.001f,
                 AddBias = true,
+                LearningRate = 0.01f,
             };
-            brain.TrainingEnd += Brain_TrainingEnd;
 
-            var td = new Dictionary<float[], float>();
-            td.Add(new float[] { -1, -1 }, -1);
-            td.Add(new float[] { -1, 1 }, -1);
-            td.Add(new float[] { 1, 1 }, 1);
+            /*// XOR TRAINING
+            Dictionary<float[], float[]> trainingData = new Dictionary<float[], float[]>();
+            trainingData.Add(new float[] { 0, 0 }, new float[] { 0, });
+            trainingData.Add(new float[] { 0, 1 }, new float[] { 1, });
+            trainingData.Add(new float[] { 1, 0 }, new float[] { 1, });
+            trainingData.Add(new float[] { 1, 1 }, new float[] { 0, });
 
-            while (true)
+            for (int i = 0; i < 100000; i++)
             {
-                var ctd = td.ElementAt(RandomGenerator.GetInt(td.Count-1));
-                WriteLine(brain.Train(ctd.Key, ctd.Value));
+                var ctd = trainingData.ElementAt(RandomGenerator.GetInt(trainingData.Count));
+                brain.Backpropagation(ctd.Key, ctd.Value);
+            }
+            WriteLine("Training end!");
+            
+
+            Get(0, 0);
+            Get(0, 1);
+            Get(1, 0);
+            Get(1, 1);
+            */
+
+            
+            Dictionary<float[], float[]> trainingData = new Dictionary<float[], float[]>();
+            trainingData.Add(new float[] { 0, 0.0f }, new float[] { 0.0f, });
+            trainingData.Add(new float[] { 0, 0.1f }, new float[] { 0.1f, });
+            trainingData.Add(new float[] { 0, 0.2f }, new float[] { 0.2f, });
+            trainingData.Add(new float[] { 0, 0.3f }, new float[] { 0.3f, });
+            trainingData.Add(new float[] { 0, 0.4f }, new float[] { 0.4f, });
+            trainingData.Add(new float[] { 0, 0.5f }, new float[] { 0.5f, });
+            trainingData.Add(new float[] { 0, 0.6f }, new float[] { 0.6f, });
+            trainingData.Add(new float[] { 0, 0.7f }, new float[] { 0.7f, });
+            trainingData.Add(new float[] { 0, 0.8f }, new float[] { 0.8f, });
+            trainingData.Add(new float[] { 0, 0.9f }, new float[] { 0.9f, });
+            trainingData.Add(new float[] { 0, 1.0f }, new float[] { 1.0f, });
+            int length = trainingData.Count;
+            for (int i = 0; i < 100000; i++)
+            {
+                var ctd = trainingData.ElementAt(RandomGenerator.GetInt(length));
+                brain.Backpropagation(ctd.Key, ctd.Value);
+            }
+            WriteLine("Training end!");
+            WriteLine();
+            WriteLine("0.0");
+            Get(0, 0.0f);
+            WriteLine("0.2");
+            Get(0, 0.2f);
+            WriteLine("0.4");
+            Get(0, 0.4f);
+            WriteLine("0.6");
+            Get(0, 0.6f);
+            WriteLine("0.8");
+            Get(0, 0.8f);
+            
+
+            void Get(float x0, float x1)
+            {
+                float[] output = brain.Feedforward(new float[] { x0, x1 });
+                WriteLine(Math.Round(output[0], 1));
+                WriteLine();
             }
         }
         static void TestRandomNumbers()
@@ -124,14 +175,15 @@ namespace ConsoleTest
             WriteLine(m.ToString());
             WriteLine();
 
-            m.Transpoze();
+            m.Transpose();
             WriteLine(m.ToString());
             WriteLine();
-        }
 
-        private static void Brain_TrainingEnd(float[] inputs, float answer, float guess, float error)
-        {
-            WriteLine(error);
+            Matrix m2 = new Matrix(2, 3);
+            m2.Randomize(10);
+            Matrix hadamarProduct = Matrix.Multiply(m, m2);
+            WriteLine(hadamarProduct.ToString());
+            WriteLine();
         }
     }
 }
